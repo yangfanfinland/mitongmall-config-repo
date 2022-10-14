@@ -15,7 +15,7 @@ spring:
     password: root
   datasource:
      name: dev
-     url: jdbc:mysql://172.16.31.3:3306/mitongmallcloud
+     url: jdbc:mysql://172.16.31.3:3306/mitongmallcloud?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC
      username: root
      password: 2rjaFvus
 redis:
