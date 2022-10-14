@@ -9,15 +9,15 @@ spring:
     sampler:
       probability: 1
   rabbitmq:
-    host: 111.231.119.253
+    host: 127.0.0.1
     port: 5672
-    username: root
-    password: root
+    username: guest
+    password: guest
   datasource:
      name: dev
      url: jdbc:mysql://172.16.31.3:3306/mitongmallcloud?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC
      username: root
-     password: 2rjaFvus
+     password: root
 redis:
     host: 111.231.119.253
     port: 6379
