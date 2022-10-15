@@ -18,7 +18,7 @@ spring:
      name: dev
      url: jdbc:mysql://172.16.31.3:3306/mitongmallcloud?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC
      username: root
-     password: root@
+     password: root
 redis:
     host: 111.231.119.253
     port: 6379
