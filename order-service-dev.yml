@@ -6,7 +6,7 @@ spring:
   redis:
     host: 172.16.31.3
     port: 6379
-    password: root
+    password: "root"
   zipkin:
     base-url: http://106.14.163.235:9411
   sleuth:
