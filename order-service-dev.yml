@@ -23,7 +23,7 @@ spring:
      username: root
      password: root
 redis:
-    host: 111.231.119.253
+    host: 172.16.31.3
     port: 6379
     max-idle: 5
     max-total: 10
