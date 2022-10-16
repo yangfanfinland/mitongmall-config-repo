@@ -4,9 +4,9 @@ eureka:
     instance-id: ${spring.cloud.client.ip-address}:${spring.application.name}:${server.port}:@project.version@ #自定义实例显示格式，加上版本号，便于多版本管理，注意是ip-address，早期版本是ipAddress
 spring:
   redis:
-    host: 111.231.119.253
+    host: 172.16.31.3
     port: 6379
-    password: sunweiguo2018@
+    password: 
   zipkin:
     base-url: http://106.14.163.235:9411
   sleuth:
