@@ -7,11 +7,6 @@ spring:
     host: 172.16.31.3
     port: 6379
     password: yangfanfinland
-  zipkin:
-    base-url: http://106.14.163.235:9411
-  sleuth:
-    sampler:
-      probability: 1
   rabbitmq:
     host: 127.0.0.1
     port: 5672
